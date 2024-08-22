@@ -1,0 +1,253 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Alv2BleService
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import Alv2BleService
+import CommonCrypto
+import CoreBluetooth
+import Foundation
+import SQLite3
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import uECC
+@_hasMissingDesignatedInitializers public class AuditLog {
+  public init(date: Foundation.Date, roomType: Swift.Int, room: Swift.Int64)
+  public init(data: [Swift.UInt8]?)
+  @objc deinit
+}
+public var Logging: Swift.Bool
+public func Log(_ object: Any? = "Any?", classFile: Swift.String = #file, functionName: Swift.String = #function, lineNumber: Swift.Int = #line)
+extension Swift.String {
+  public var lastPathComponent: Swift.String {
+    get
+  }
+  public var stringByDeletingPathExtension: Swift.String {
+    get
+  }
+}
+@_inheritsConvenienceInitializers public class Alv2KeyTable : Alv2BleService.DBHelper {
+  override public init(_ schemaVersion: Swift.UInt64 = 0)
+  public func find(_ id: Swift.Int64) -> Alv2BleService.Alv2Key?
+  public func list() -> [Alv2BleService.Alv2Key]
+  public func insert(_ key: Alv2BleService.Alv2Key) -> Swift.Int64
+  public func delete(_ key: Alv2BleService.Alv2Key) -> Swift.Bool
+  public func deleteAll() -> Swift.Bool
+  public func deleteCheckOutOver()
+  public func deleteKeyName(_ keyName: Swift.String)
+  @objc deinit
+}
+public class AuditLogData : Alv2BleService.AuditLogDataProtocol {
+  public var id: Swift.Int64
+  public var date: Foundation.Date?
+  public var roomType: Swift.Int
+  public var battery: Swift.Int8
+  public var ngCount: Swift.Int
+  public var deadStatus: Swift.Int
+  public var room: Swift.Int64
+  public var error: Swift.Int
+  public init()
+  @objc deinit
+}
+public protocol AuditLogDataProtocol {
+  var id: Swift.Int64 { get set }
+  var date: Foundation.Date? { get set }
+  var roomType: Swift.Int { get set }
+  var battery: Swift.Int8 { get set }
+  var ngCount: Swift.Int { get set }
+  var deadStatus: Swift.Int { get set }
+  var room: Swift.Int64 { get set }
+  var error: Swift.Int { get set }
+  var idData: Swift.Int64 { get set }
+  var dateData: Foundation.Date? { get set }
+  var roomTypeData: Swift.Int { get set }
+  var batteryData: Swift.Int8 { get set }
+  var ngCountData: Swift.Int { get set }
+  var deadBoltData: Swift.Bool { get set }
+  var roomData: Swift.Int64 { get set }
+  var errorData: Swift.Bool { get set }
+}
+extension Alv2BleService.AuditLogDataProtocol {
+  public var idData: Swift.Int64 {
+    get
+    set(newValue)
+  }
+  public var dateData: Foundation.Date? {
+    get
+    set(newValue)
+  }
+  public var roomTypeData: Swift.Int {
+    get
+    set(newValue)
+  }
+  public var batteryData: Swift.Int8 {
+    get
+    set(newValue)
+  }
+  public var ngCountData: Swift.Int {
+    get
+    set(newValue)
+  }
+  public var deadBoltData: Swift.Bool {
+    get
+    set(newValue)
+  }
+  public var roomData: Swift.Int64 {
+    get
+    set(newValue)
+  }
+  public var errorData: Swift.Bool {
+    get
+    set(newValue)
+  }
+}
+@_inheritsConvenienceInitializers public class AuditLogTable : Alv2BleService.DBHelper {
+  override public init(_ schemaVersion: Swift.UInt64 = 0)
+  public func list() -> [Alv2BleService.AuditLogData]?
+  public func listSortId() -> [Alv2BleService.AuditLogData]?
+  public func listSortDate() -> [Alv2BleService.AuditLogData]?
+  public func find(id: Swift.Int64) -> Alv2BleService.AuditLogData?
+  public func insert(log: Alv2BleService.AuditLog) -> Swift.Int64
+  public func write(log: Alv2BleService.AuditLogDataProtocol) -> Swift.Bool
+  @objc deinit
+}
+public class DBHelper {
+  public init(_ schemaVersion: Swift.UInt64 = 0) throws
+  @objc deinit
+}
+public class Alv2Ble {
+  public init(serialCode: Swift.String, schemaVersion: Swift.UInt64 = 0) throws
+  public func StartAuth(idData: Swift.Int64, rssi: Swift.Int32 = -70, commonRssi: Swift.Int32 = -65, timeout: Swift.UInt64 = 10000)
+  public func StartRecv(roomData: Swift.Int64, rssi: Swift.Int32 = -70, timeout: Swift.UInt64 = 10000)
+  public func StopService()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Alv2Key {
+  public static let FREE_KEY_LENGTH: Swift.Int
+  public init(basic: [Swift.UInt8], ext1: [Swift.UInt8], ext2: [Swift.UInt8], free: [Swift.UInt8] = Array(repeating: 0x00, count: Alv2Key.FREE_KEY_LENGTH), pos: [Swift.UInt8] = Array(repeating: 0x00, count: 48))
+  public init(key: [Swift.UInt8]?, att: [Swift.UInt8]?)
+  public var idData: Swift.Int64 {
+    get
+    set(newValue)
+  }
+  public var roomData: Swift.Int64 {
+    get
+    set(newValue)
+  }
+  public var room2Data: [Swift.Int64]? {
+    get
+    set(newValue)
+  }
+  public var ciData: Foundation.Date? {
+    get
+    set(newValue)
+  }
+  public var coData: Foundation.Date? {
+    get
+    set(newValue)
+  }
+  public var tzData: Swift.Int {
+    get
+    set(newValue)
+  }
+  public var keyNameData: Swift.String {
+    get
+    set(newValue)
+  }
+  public var staffCodeData: Swift.Int64 {
+    get
+    set(newValue)
+  }
+  public var staffLevelData: Swift.Int {
+    get
+    set(newValue)
+  }
+  @objc deinit
+}
+public protocol BlockMode {
+}
+public struct CBC : Alv2BleService.BlockMode {
+  public let iv: [Swift.UInt8]?
+}
+public class AES {
+  public init(key: [Swift.UInt8], blockMode: Alv2BleService.BlockMode) throws
+  public func encrypt(_ data: [Swift.UInt8]) throws -> [Swift.UInt8]
+  public func decrypt(_ data: [Swift.UInt8]) throws -> [Swift.UInt8]
+  public static func randomIV(_ length: Swift.Int) -> [Swift.UInt8]
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class AesKey {
+  public init()
+  public var idData: Swift.Int64 {
+    get
+    set(newValue)
+  }
+  public var roomNoData: Swift.Int64 {
+    get
+    set(newValue)
+  }
+  public var keyData: [Swift.UInt8] {
+    get
+    set(newValue)
+  }
+  public var validityDate: Foundation.Date? {
+    get
+    set(newValue)
+  }
+  public var createdDate: Foundation.Date? {
+    get
+    set(newValue)
+  }
+  @objc deinit
+}
+public class NgInfo {
+  public init()
+  public var idData: Swift.Int64 {
+    get
+    set(newValue)
+  }
+  public var errorData: Swift.UInt8 {
+    get
+    set(newValue)
+  }
+  public var roomTypeData: Swift.Int {
+    get
+    set(newValue)
+  }
+  public var roomData: Swift.Int64 {
+    get
+    set(newValue)
+  }
+  public var spNoData: Swift.Int {
+    get
+    set(newValue)
+  }
+  public var batteryData: Swift.UInt8 {
+    get
+    set(newValue)
+  }
+  public var dateData: Foundation.Date? {
+    get
+    set(newValue)
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class NgInfoTable : Alv2BleService.DBHelper {
+  override public init(_ schemaVersion: Swift.UInt64 = 0)
+  public func find(_ id: Swift.Int64) -> Alv2BleService.NgInfo?
+  public func update(_ info: Alv2BleService.NgInfo) -> Swift.Bool
+  public func insert(_ info: Alv2BleService.NgInfo) -> Swift.Int64
+  public func deleteAll() -> Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class AesKeyTable : Alv2BleService.DBHelper {
+  override public init(_ schemaVersion: Swift.UInt64 = 0)
+  public func list() -> [Alv2BleService.AesKey]
+  public func find(_ roomNo: Swift.Int64) -> Alv2BleService.AesKey?
+  public func insert(_ key: Alv2BleService.AesKey) -> Swift.Int64
+  public func update(_ key: Alv2BleService.AesKey)
+  public func deleteAll() -> Swift.Bool
+  public func deleteOldKey()
+  @objc deinit
+}

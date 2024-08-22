@@ -1,0 +1,16 @@
+framework module Alv2BleService {
+  umbrella header "Alv2BleService.h"
+
+  export *
+  module * { export * }
+}
+
+module Alv2BleService.Swift {
+  header "Alv2BleService-Swift.h"
+  requires objc
+}
+
+module uECC [system] {
+    header "Headers/uECC.h"
+    export *
+}
