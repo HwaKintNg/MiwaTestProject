@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Alv2BleService
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Alv2BleService
 @_exported import Alv2BleService
 import CommonCrypto
 import CoreBluetooth
@@ -11,6 +10,7 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import uECC
 @_hasMissingDesignatedInitializers public class AuditLog {
   public init(date: Foundation.Date, roomType: Swift.Int, room: Swift.Int64)
@@ -109,7 +109,7 @@ extension Alv2BleService.AuditLogDataProtocol {
   public func listSortDate() -> [Alv2BleService.AuditLogData]?
   public func find(id: Swift.Int64) -> Alv2BleService.AuditLogData?
   public func insert(log: Alv2BleService.AuditLog) -> Swift.Int64
-  public func write(log: Alv2BleService.AuditLogDataProtocol) -> Swift.Bool
+  public func write(log: any Alv2BleService.AuditLogDataProtocol) -> Swift.Bool
   @objc deinit
 }
 public class DBHelper {
@@ -171,7 +171,7 @@ public struct CBC : Alv2BleService.BlockMode {
   public let iv: [Swift.UInt8]?
 }
 public class AES {
-  public init(key: [Swift.UInt8], blockMode: Alv2BleService.BlockMode) throws
+  public init(key: [Swift.UInt8], blockMode: any Alv2BleService.BlockMode) throws
   public func encrypt(_ data: [Swift.UInt8]) throws -> [Swift.UInt8]
   public func decrypt(_ data: [Swift.UInt8]) throws -> [Swift.UInt8]
   public static func randomIV(_ length: Swift.Int) -> [Swift.UInt8]

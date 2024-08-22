@@ -3927,7 +3927,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AuditLogDataProtocol",
-                "printedName": "Alv2BleService.AuditLogDataProtocol",
+                "printedName": "any Alv2BleService.AuditLogDataProtocol",
                 "usr": "s:14Alv2BleService20AuditLogDataProtocolP"
               }
             ],
@@ -4011,7 +4011,8 @@
             "mangledName": "$s14Alv2BleService8DBHelperCyACs6UInt64VKcfc",
             "moduleName": "Alv2BleService",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "init_kind": "Designated"
@@ -4087,7 +4088,8 @@
             "mangledName": "$s14Alv2BleService0aB0C10serialCode13schemaVersionACSS_s6UInt64VtKcfc",
             "moduleName": "Alv2BleService",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "init_kind": "Designated"
@@ -5441,7 +5443,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "BlockMode",
-                "printedName": "Alv2BleService.BlockMode",
+                "printedName": "any Alv2BleService.BlockMode",
                 "usr": "s:14Alv2BleService9BlockModeP"
               }
             ],
@@ -7348,6 +7350,7 @@
         "mangledName": "$sSS",
         "moduleName": "Swift",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
@@ -8294,7 +8297,7 @@
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Db\/AuditLog\/AuditLogTableRealm.swift",
       "kind": "IntegerLiteral",
-      "offset": 305,
+      "offset": 548,
       "length": 1,
       "value": "0"
     },
@@ -8364,21 +8367,21 @@
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Db\/Alv2Key\/Alv2KeyTableRealm.swift",
       "kind": "IntegerLiteral",
-      "offset": 761,
+      "offset": 1004,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Db\/Alv2Key\/Alv2KeyTable.swift",
       "kind": "IntegerLiteral",
-      "offset": 658,
+      "offset": 901,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Db\/Alv2Key\/Alv2KeyTable.swift",
       "kind": "BooleanLiteral",
-      "offset": 8604,
+      "offset": 8847,
       "length": 4,
       "value": "true"
     },
@@ -8434,7 +8437,7 @@
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Db\/AuditLog\/AuditLogTable.swift",
       "kind": "IntegerLiteral",
-      "offset": 279,
+      "offset": 522,
       "length": 1,
       "value": "0"
     },
@@ -8483,7 +8486,7 @@
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Db\/DBHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 545,
+      "offset": 790,
       "length": 1,
       "value": "0"
     },
@@ -8518,91 +8521,91 @@
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Service\/Alv2Service.swift",
       "kind": "IntegerLiteral",
-      "offset": 778,
+      "offset": 1023,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Service\/Alv2Service.swift",
       "kind": "IntegerLiteral",
-      "offset": 1856,
+      "offset": 2101,
       "length": 3,
-      "value": "70"
+      "value": "-70"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Service\/Alv2Service.swift",
       "kind": "IntegerLiteral",
-      "offset": 1881,
+      "offset": 2126,
       "length": 3,
-      "value": "65"
+      "value": "-65"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Service\/Alv2Service.swift",
       "kind": "IntegerLiteral",
-      "offset": 1904,
+      "offset": 2149,
       "length": 5,
       "value": "10000"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Service\/Alv2Service.swift",
       "kind": "IntegerLiteral",
-      "offset": 2068,
+      "offset": 2313,
       "length": 3,
-      "value": "70"
+      "value": "-70"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Service\/Alv2Service.swift",
       "kind": "IntegerLiteral",
-      "offset": 2090,
+      "offset": 2335,
       "length": 5,
       "value": "10000"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Service\/Alv2Service.swift",
       "kind": "IntegerLiteral",
-      "offset": 4333,
+      "offset": 4578,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Service\/Alv2Service.swift",
       "kind": "IntegerLiteral",
-      "offset": 4435,
+      "offset": 4680,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Service\/Alv2Service.swift",
       "kind": "IntegerLiteral",
-      "offset": 4527,
+      "offset": 4772,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Service\/Alv2Service.swift",
       "kind": "IntegerLiteral",
-      "offset": 4609,
+      "offset": 4854,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Service\/Alv2Service.swift",
       "kind": "BooleanLiteral",
-      "offset": 5347,
+      "offset": 5592,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Service\/Alv2Service.swift",
       "kind": "BooleanLiteral",
-      "offset": 5549,
+      "offset": 5794,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Service\/Alv2Service.swift",
       "kind": "BooleanLiteral",
-      "offset": 5684,
+      "offset": 5929,
       "length": 5,
       "value": "false"
     },
@@ -8660,7 +8663,7 @@
       "kind": "IntegerLiteral",
       "offset": 495,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Db\/Alv2Key\/Alv2Key.swift",
@@ -9022,7 +9025,7 @@
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Db\/NgInfo\/NgInfoTableRealm.swift",
       "kind": "IntegerLiteral",
-      "offset": 347,
+      "offset": 590,
       "length": 1,
       "value": "0"
     },
@@ -9134,21 +9137,21 @@
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Db\/NgInfo\/NgInfoTable.swift",
       "kind": "IntegerLiteral",
-      "offset": 294,
+      "offset": 537,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Db\/NgInfo\/NgInfoTable.swift",
       "kind": "BooleanLiteral",
-      "offset": 5419,
+      "offset": 5662,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Db\/AesKey\/AesKeyTableRealm.swift",
       "kind": "IntegerLiteral",
-      "offset": 365,
+      "offset": 608,
       "length": 1,
       "value": "0"
     },
@@ -9162,14 +9165,14 @@
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Db\/AesKey\/AesKeyTable.swift",
       "kind": "IntegerLiteral",
-      "offset": 298,
+      "offset": 541,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Db\/AesKey\/AesKeyTable.swift",
       "kind": "BooleanLiteral",
-      "offset": 9305,
+      "offset": 9548,
       "length": 4,
       "value": "true"
     },
@@ -9563,14 +9566,14 @@
       "kind": "IntegerLiteral",
       "offset": 4051,
       "length": 3,
-      "value": "65"
+      "value": "-65"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Commons\/Const.swift",
       "kind": "IntegerLiteral",
       "offset": 4090,
       "length": 3,
-      "value": "70"
+      "value": "-70"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Commons\/Const.swift",
@@ -9654,7 +9657,7 @@
       "kind": "IntegerLiteral",
       "offset": 4904,
       "length": 4,
-      "value": "100"
+      "value": "-100"
     },
     {
       "filePath": "\/Users\/syskai1\/Workspace\/H_KEYMO\/iOS\/KEYMO_LIB_iOS\/Alv2BleService\/Alv2BleService\/Commons\/Const.swift",

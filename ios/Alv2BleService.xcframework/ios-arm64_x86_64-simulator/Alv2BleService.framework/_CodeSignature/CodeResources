@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Alv2BleService-Swift.h</key>
 		<data>
-		k4gVxzy0mS8wzT7cXHGhuDG+8jQ=
+		hDAweBZktd7TlNorcqOMawnrx5Y=
 		</data>
 		<key>Headers/Alv2BleService.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JJjFXymorauI9J2LWisAz4kpsxc=
+		wjTP/d2d75neCDzHRlF1hhn1ahY=
 		</data>
 		<key>LICENSE.txt</key>
 		<data>
@@ -26,47 +26,51 @@
 		</data>
 		<key>Modules/Alv2BleService.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		q5xlVXW4NMazVCvltWmnqHWQECg=
+		F8fCXuGsnrXNpI0heNPEdYYHR7A=
 		</data>
 		<key>Modules/Alv2BleService.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		RRzuVaep1rtGpnjPRbvlPFvXvVk=
+		4wXL6rt0pq9W95cH4fJWMwPyUoU=
 		</data>
 		<key>Modules/Alv2BleService.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vN7Nr7TZypS/iTqTOvpUE6/ZrhA=
+		93cSJVEsKXeFYWVA2WgcUkscWV8=
 		</data>
 		<key>Modules/Alv2BleService.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RRzuVaep1rtGpnjPRbvlPFvXvVk=
+		4wXL6rt0pq9W95cH4fJWMwPyUoU=
 		</data>
 		<key>Modules/Alv2BleService.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lFXk0bLjH8RSeuur1Qoxhi6faoI=
+		0qyjTolElMyA9LUqFiB7sqBDZ5c=
 		</data>
 		<key>Modules/Alv2BleService.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		q5xlVXW4NMazVCvltWmnqHWQECg=
+		F8fCXuGsnrXNpI0heNPEdYYHR7A=
 		</data>
 		<key>Modules/Alv2BleService.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		lLoOzJ2dedDK3nV2/GeSvXTC77c=
+		ry9R7eSCeGOvqwVfTReJJfGRme0=
 		</data>
 		<key>Modules/Alv2BleService.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		yMvdPkFTMt/d7QSYsoya1ZXRZtc=
+		yVLIHlMbHNRd6WD6Yd1pNSBBwHk=
 		</data>
 		<key>Modules/Alv2BleService.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lLoOzJ2dedDK3nV2/GeSvXTC77c=
+		ry9R7eSCeGOvqwVfTReJJfGRme0=
 		</data>
 		<key>Modules/Alv2BleService.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DjCX+gujSYA73AqxEnICakIqDgE=
+		YwiiO/TMqqjdnV06Ii2TSxR1y6Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		KKly/ltS4cCjQ/gwuZ05WugLugw=
+		LCVqgM/PY9ygt6CE2VNg1r0bK1E=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		ucg9pita0v8d353x3NuGfxweQYU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -75,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qf9UB5Xl1tSA5Cse5+zZ3OzqdUWvEd2B4+z51AXogZ0=
+			3n95zjZZPLFTZVX+Aqckw4YNjMsD/YpGxxkp3OlwUsA=
 			</data>
 		</dict>
 		<key>Headers/Alv2BleService.h</key>
@@ -103,77 +107,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jWSn2jPG2qHN7SCWLzthNsZtDoN54VpItMToGObUw0o=
+			x1xmKsaaIcfJrC3LGVfrnl/sXVkwr7ToNPDU9YKeRCY=
 			</data>
 		</dict>
 		<key>Modules/Alv2BleService.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pln7zqFVAsImtOLnDhMB5cHcrX3QB5Tgo1H6RS+5E1c=
+			rsRvdRJIo2HbxdTMgu+OKC6oQPoAOqJ8AzALbODz0+w=
 			</data>
 		</dict>
 		<key>Modules/Alv2BleService.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+5FcPAT79SwDeZP/MrusZowd9yFkKxOKfVRbVo5+Lhc=
+			VJmWUTyMVa/mcQQFdZUtwpSljL3KC5RyFX9SNwnKIhw=
 			</data>
 		</dict>
 		<key>Modules/Alv2BleService.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pln7zqFVAsImtOLnDhMB5cHcrX3QB5Tgo1H6RS+5E1c=
+			rsRvdRJIo2HbxdTMgu+OKC6oQPoAOqJ8AzALbODz0+w=
 			</data>
 		</dict>
 		<key>Modules/Alv2BleService.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sufxnYnOxAqn+WRfkRMqV2miHN8ergIwjWteffqnrxY=
+			kzt0BN1CrOS3NCrECt1+34VNGnyE3sgWUDh78VMV2rA=
 			</data>
 		</dict>
 		<key>Modules/Alv2BleService.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jWSn2jPG2qHN7SCWLzthNsZtDoN54VpItMToGObUw0o=
+			x1xmKsaaIcfJrC3LGVfrnl/sXVkwr7ToNPDU9YKeRCY=
 			</data>
 		</dict>
 		<key>Modules/Alv2BleService.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iXDq1JxAJYixQ87wg+h6QQVAvXGcoazIhooQaA+LL04=
+			3vbkyuMU1hxpu/0f7xbR9JqAWqpzO8svIJyIcr0+0a4=
 			</data>
 		</dict>
 		<key>Modules/Alv2BleService.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9PBXsRcbq3y4O+3WJsXoZto2lfoVgZ0T/RmkomUJdM0=
+			TXlzsrKhwG8kZ4Jj5GTfGCdHOUY7KuG7xOpW0sORbaM=
 			</data>
 		</dict>
 		<key>Modules/Alv2BleService.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iXDq1JxAJYixQ87wg+h6QQVAvXGcoazIhooQaA+LL04=
+			3vbkyuMU1hxpu/0f7xbR9JqAWqpzO8svIJyIcr0+0a4=
 			</data>
 		</dict>
 		<key>Modules/Alv2BleService.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DLgrzd5FUN28tBNO+uGBSaBff8IvC2yq7axxcCOvD+4=
+			llv0EuGeJNJNOf3aq1LZ9k4NpWucnSE3sesPKcG6vyk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GPrgCS+pkVEA88O0u4+g4Uu5ktN3y2cae0XdJKz8pwQ=
+			Ve1pkh8U65TOHqnefjzfYG7wPVavtxbIgkLCE6REgDs=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
 			</data>
 		</dict>
 	</dict>

@@ -11,13 +11,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		38A752A62C75D04A0026C039 /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A752A52C75D04A0026C039 /* Realm.xcframework */; };
-		38A752A72C75D04A0026C039 /* Realm.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38A752A52C75D04A0026C039 /* Realm.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		38A752AA2C75D0580026C039 /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A752A92C75D0580026C039 /* RealmSwift.xcframework */; };
-		38A752AB2C75D0580026C039 /* RealmSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38A752A92C75D0580026C039 /* RealmSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		38A752AD2C75D0680026C039 /* Alv2BleService.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A752AC2C75D0680026C039 /* Alv2BleService.xcframework */; };
-		38A752AE2C75D0680026C039 /* Alv2BleService.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38A752AC2C75D0680026C039 /* Alv2BleService.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38B43E592C77175F000DBD35 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 38B43E582C77175F000DBD35 /* main.jsbundle */; };
+		38B43E5A2C7734C7000DBD35 /* Alv2BleService.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A752AC2C75D0680026C039 /* Alv2BleService.xcframework */; };
+		38B43E5B2C7734C7000DBD35 /* Alv2BleService.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38A752AC2C75D0680026C039 /* Alv2BleService.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		38B43E5D2C7734D9000DBD35 /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A752A52C75D04A0026C039 /* Realm.xcframework */; };
+		38B43E5E2C7734D9000DBD35 /* Realm.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38A752A52C75D04A0026C039 /* Realm.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		38B43E5F2C7734D9000DBD35 /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A752A92C75D0580026C039 /* RealmSwift.xcframework */; };
+		38B43E602C7734D9000DBD35 /* RealmSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38A752A92C75D0580026C039 /* RealmSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38FE20FE2C76E03100713E35 /* Alv2BLEModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FE20F82C76E03000713E35 /* Alv2BLEModule.m */; };
 		38FE20FF2C76E03100713E35 /* Alv2BLEModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE20F92C76E03000713E35 /* Alv2BLEModule.swift */; };
 		38FE21002C76E03100713E35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE20FA2C76E03000713E35 /* Constants.swift */; };
@@ -38,15 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		38A752A82C75D04A0026C039 /* Embed Frameworks */ = {
+		38B43E5C2C7734C7000DBD35 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				38A752AE2C75D0680026C039 /* Alv2BleService.xcframework in Embed Frameworks */,
-				38A752A72C75D04A0026C039 /* Realm.xcframework in Embed Frameworks */,
-				38A752AB2C75D0580026C039 /* RealmSwift.xcframework in Embed Frameworks */,
+				38B43E5B2C7734C7000DBD35 /* Alv2BleService.xcframework in Embed Frameworks */,
+				38B43E602C7734D9000DBD35 /* RealmSwift.xcframework in Embed Frameworks */,
+				38B43E5E2C7734D9000DBD35 /* Realm.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,10 +96,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A752AA2C75D0580026C039 /* RealmSwift.xcframework in Frameworks */,
-				38A752AD2C75D0680026C039 /* Alv2BleService.xcframework in Frameworks */,
-				38A752A62C75D04A0026C039 /* Realm.xcframework in Frameworks */,
+				38B43E5A2C7734C7000DBD35 /* Alv2BleService.xcframework in Frameworks */,
 				E8F3936156F67BE6FBF06A83 /* libPods-MiwaTestProject.a in Frameworks */,
+				38B43E5D2C7734D9000DBD35 /* Realm.xcframework in Frameworks */,
+				38B43E5F2C7734D9000DBD35 /* RealmSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,9 +240,9 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				38A752A82C75D04A0026C039 /* Embed Frameworks */,
 				B8043D889427772D05FBA24C /* [CP] Embed Pods Frameworks */,
 				64BFAD743DC744062D4A9D83 /* [CP] Copy Pods Resources */,
+				38B43E5C2C7734C7000DBD35 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -668,7 +668,7 @@
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
-				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Alv2BLE/GentingApp-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "MiwaTestProject-Swift.h";
 			};
@@ -735,7 +735,7 @@
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
-				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Alv2BLE/GentingApp-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "MiwaTestProject-Swift.h";
 				VALIDATE_PRODUCT = YES;

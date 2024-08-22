@@ -1,7 +1,7 @@
 framework module Alv2BleService {
   umbrella header "Alv2BleService.h"
-
   export *
+
   module * { export * }
 }
 
